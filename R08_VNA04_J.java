@@ -1,3 +1,4 @@
+//Rule 08 Visibility and Atomicity (VNA) VNA04-J. Ensure that calls to chained methods are atomic 
 final class USCurrency {
   private final int quarters;
   private final int dimes;
