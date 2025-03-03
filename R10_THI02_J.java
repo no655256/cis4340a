@@ -1,3 +1,4 @@
+//Rle 10 Thread APIs (THI) THI02-J. Notify all waiting threads rather than a single thread
 public final class ProcessStep implements Runnable {
   private static final Object lock = new Object();
   private static int time = 0;
