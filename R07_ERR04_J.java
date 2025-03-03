@@ -1,3 +1,4 @@
+//Rule 07 Exceptional Behavior (ERR) ERR04-J. Do not complete abruptly from a finally block
 class TryFinally {
   private static boolean doLogic() {
     try {
