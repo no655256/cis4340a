@@ -7,7 +7,7 @@ public Map<Integer, String> getMap() {
 }
  
 public void doSomething() {
-  synchronized (setView) {  // Incorrectly synchronizes on setView
+  synchronized (mapView) {  // Synchronize on map, rather than set
     for (Integer k : setView) {
       // ...
     }
